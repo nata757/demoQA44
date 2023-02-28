@@ -1,0 +1,30 @@
+test@gmail.com
+1. Найти xpath:
+На странице входа
+- для поля email
+- для поля password
+- для кнопки login
+- для ссылок
+Внутри приложения - окно добавления контакта:
+- для поля name
+- для поля last name
+- для поля About
+- для кнопок cancel, save
+- для иконки закрытия окна
+
+
+
+
+1.
+//input[@name='email']
+//input[@name='password']
+//button[@type ='submit']
+//a[@routerlink='/user/registration']
+//a[@routerlink='/user/forgot-password']
+
+//input[@id='form-name']
+//input[@id='form-lastName']
+//input[@id='form-about']
+//button[@type='reset']
+//*[@class='btn btn-primary']
+//span[@aria-hidden='true']
