@@ -24,7 +24,7 @@ test@gmail.com
 
 //input[@id='form-name']
 //input[@id='form-lastName']
-//input[@id='form-about']
+//*[@id='form-about']
 //button[@type='reset']
 //*[@class='btn btn-primary']
 //span[@aria-hidden='true']
