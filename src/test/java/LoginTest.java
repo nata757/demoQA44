@@ -58,7 +58,7 @@ public void getAuth() {
 
         Assert.assertEquals(driver.findElement(firstNameField).getText(), firstName);
         Assert.assertEquals(driver.findElement(lastNameField).getText(), lastName);
-        Assert.assertEquals(driver.findElement(contactDescriptionField).getText(),about);
+        Assert.assertEquals(driver.findElement(contactDescriptionField).getText(), about);
 
 
 
