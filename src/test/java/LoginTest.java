@@ -8,20 +8,10 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class LoginTest {
-    WebDriver driver;
-    @BeforeMethod
-    public void setUp(){
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("http://phonebook.telran-edu.de:8080/user/login");
-    }
-    @AfterMethod
-    public void  tearDown() {
+public class LoginTest extends TestBase{
 
-        driver.quit();
-    }
+
+
 
 
     By firstNameInput = By.xpath("//input[@id='form-name']");
